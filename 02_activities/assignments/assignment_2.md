@@ -10,19 +10,37 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+     **Bad data visualization:** https://www.reddit.com/r/dataisugly/comments/1qs6w46/apparently_bar_charts_are_just_completely/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 
+Reasons why this is a bad example: 
+1. **Confusing Visual Encoding:** The bars don’t align with their values in a way viewers can easily compare. Viewers on the Reddit thread immediately express confusion about what the bars represent and how they relate to the numbers — e.g., “GREEN = GOOD RED = BAD” with little context, and multiple commenters are frustrated by the lack of intuitive meaning.
+2. **Lacks Clear Labels or Context: ** Effective visualization must provide clear axis labels, a descriptive title, and context about what is being measured. This chart lacks that, leaving readers guessing the unit of measurement and the relationship of values to visual elements. According to visualization principles, without context, the visualization fails to communicate its message (the main intended impression is not gained by the viewer).
+3. **No Narrative or Visual Hierarchy:** Without a clear visual hierarchy or story, viewers must struggle to interpret what matters most. This negates the key purpose of visualization: to translate complex data into digestible insights.
 
+  
+**  Good data visualization: **
+https://public.tableau.com/app/profile/pradeepkumar.g/viz/WebTrafficDashboardRedesign/Cockpit?_gl=1*pijyet*_gcl_au*OTkzOTg1NDQ2LjE3Njk4OTMyMTg.*_ga*MTAxNTAxMzgzMi4xNzY5ODkzMjE4*_ga_8YLN0SNXVS*czE3Njk4OTMyMTYkbzEkZzEkdDE3Njk4OTQwMjQkajQwJGwwJGgw
 
+1.** Purposeful Layout and Data Storytelling: ** The dashboard consolidates multiple related metrics (traffic sources, trends over time, conversions, etc.) into a cohesive whole, allowing simultaneous comparison and insight into patterns. Good dashboards organize information so that viewers can quickly derive insights — a core principle of effective data visualization.
+2. **Appropriate Chart Selection:** Each chart is chosen to match the data it represents. Time series trend lines show change over time; bar charts compare categories; and breakdowns by channel highlight relationships. Appropriate chart choice ensures that the visualization matches the analytical task.
+3.** Visual Hierarchy and Clarity:** The dashboard places key metrics where the eye naturally falls (top left), uses clear headings and consistent colour schemes, and avoids overwhelming the viewer with unnecessary elements. This aligns with best practices advising limited views and a clear visual hierarchy.
 
-
+Learning resources: 
+1. https://www.gooddata.com/blog/bad-data-visualization-examples-that-you-can-learn-from/
+2. https://www.reddit.com/r/datavisualization/comments/nvzpub/send_me_bad_data_visualization_examples/
+3. https://www.geeksforgeeks.org/data-science/what-is-data/
 
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+Bad example: 
+Redesign with Appropriate Chart Type, add clear labels and context, simplify and clarify colour uses. 
 
+good example: 
+**Incorporate Annotations:** Add annotations or highlights that call out trends or anomalies (e.g., spikes in traffic), guiding the viewer to important insights. 
+**Simplify for Target Audience:** If this dashboard is aimed at executive audiences, consider reducing less critical charts to focus on top-level KPIs; for analyst users, provide drill-down options to detailed data. 
+**Legend and Colour Consistency:** Ensure that colour use is consistent and meaningful across visuals (e.g., always use the same hue for a given traffic source), which aids quicker interpretation.
 
 
 
