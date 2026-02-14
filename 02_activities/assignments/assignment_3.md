@@ -6,7 +6,9 @@
 - We will finish this class by giving you the chance to use what you have learned in a practical context, by creating data visualizations from raw data. 
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
-- For each visualization, describe and justify: 
+- For each visualization, describe and justify:
+
+- Visualization 1 (heatmap): 
     > What software did you use to create your data visualization?
 Google collab (python - Pandas, metplotlib, seaborn)
     > Who is your intended audience? 
@@ -37,6 +39,70 @@ Google collab (python - Pandas, metplotlib, seaborn)
     - used parameters like date, time and place along with counts of events. (I combined them to create a DateTime object, allowing the extraction of hour and day_of_week and used it by groupby().size() to represent delay frequency)
     > What ‘underwater labour’ contributed to your final data visualization product?
 - Systemic recording of TTC LRT delay incidents and knowledge and educational resources (tutorials, documentation, community forums) that allowed me to learn and apply these tools effectively 
+
+Visualization 2 (Images attached):
+> What software did you use to create your data visualization?
+Excel.
+> Excel was used to:
+- Generate pivot tables
+- Aggregate delay counts
+- Sort and rank stations
+- Create line and bar charts
+- Format labels and axes for clarity
+  
+    > Who is your intended audience? 
+    Toronto public
+    > What information or message are you trying to convey with your visualization? 
+    Visualization contains 3 charts:
+1. Hourly Delay Trends: The line chart shows how delay incidents fluctuate throughout the day. It highlights peak hours (morning and mid-day periods) when incidents are highest, suggesting commuter rush influence.
+2. Weekly Delay Distribution: The day-of-week bar chart shows that - Wednesday and Friday experience higher incident counts and Saturday has noticeably fewer delays. This suggests operational and ridership pattern effects.
+3. High-Risk Stations: The horizontal bar chart identifies stations with the highest frequency of delay incidents, with: Finch West FW LRT Station and Humber College Stop: These stops show the highest delay counts.
+
+Delays are not evenly distributed — they cluster around specific times and specific stations. This insight can inform commuter planning and operational improvements.
+    > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+Clarity and Simplicity:
+Used clean, uncluttered layouts
+Avoided 3D chart effects
+Used consistent axis labelling
+
+Readability:
+Clear titles describing exactly what each chart represents
+Numeric labels above bars for quick interpretation
+Adequate spacing between bars to prevent crowding
+
+Appropriate Chart Types:
+Line chart for continuous time (hourly progression)
+Column chart for categorical comparison (days)
+Horizontal bar chart for ranked comparison (stations)
+
+> How did you ensure that your data visualizations are reproducible? 
+Data was sourced from the Toronto Open Data Portal.
+Pivot table steps can be repeated using the same dataset.
+No manual editing of values was performed.
+> How did you ensure that your data visualization is accessible?  
+High contrast colors were used.
+Axis labels and titles are clearly readable.
+Charts do not rely solely on color to convey meaning.
+> Who are the individuals and communities who might be impacted by your visualization?  
+- Daily TTC LRT commuters
+- Students traveling to Humber College and Finch West
+- Shift workers traveling during early or late hours
+> How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+**Included:**
+Hour of day
+Day of week
+Station name
+Delay incident counts
+
+**Excluded:**
+Individual timestamps
+Delay reason descriptions
+Exact delay durations
+Geographic mapping data
+> What ‘underwater labour’ contributed to your final data visualization product?
+TTC staff are systematically recording incidents
+Open data infrastructure maintained by the City of Toronto
+Data cleaning and formatting before visualization
 
 
 --------------------
